@@ -1,7 +1,7 @@
 # Implementing Linear Regression using Least Squares Technique
 Linear regression is the technique in which we are going to estimate the value of a target variable based on a random input using the given set of values of independent and the correspondent target variables. Here we are going to use a single independent variable to estimate the prediction function.
 
-##Estimation of the Prediction Function
+## Estimation of the Prediction Function
 
 The prediction function that we are going to use in this case is as follows:<br/>
 
