@@ -6,3 +6,5 @@ Linear regression is the technique in which we are going to estimate the value o
 The prediction function that we are going to use in this case is as follows:<br/>
 
 Y=Theta0+(Theta1*X)<br/>
+
+Here we are going to estimate the value of the two parameters **Theta0** and **Theta1** using the learning rate aplha to decrease the parmaeters so as to minimize the cost fucntion.
