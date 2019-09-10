@@ -10,7 +10,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 
 data=pd.read_excel("linears.xls") #read_excel since it is an excel file
-
+#data=pd.read_csv('ex1data1.txt',sep=",",header=None)
 #print(data.head())
 
 X=data.iloc[:,0] # : for all the rows and 0 is the column number

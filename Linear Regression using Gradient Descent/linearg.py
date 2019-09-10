@@ -9,8 +9,8 @@ import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
 
-data=pd.read_excel("linears.xls") #read_excel since it is an excel file
-
+#data=pd.read_excel("linears.xls") #read_excel since it is an excel file
+data=pd.read_csv('ex1data1.txt',sep=",",header=None)
 #print(data.head())
 
 X=data.iloc[:,0] # : for all the rows and 0 is the column number
@@ -19,7 +19,7 @@ X=data.iloc[:,0] # : for all the rows and 0 is the column number
 Y=data.iloc[:,1] # : for all the rows and 1 is the column number
 #print(Y)
     
-alpha=0.000001
+alpha=0.01
 count=1000
 m=np.size(X)
 
